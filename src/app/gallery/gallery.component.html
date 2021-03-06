@@ -1,5 +1,5 @@
-<div *ngIf="home"  class="gallery-info__container">
-    <p class="gallery-info">{{home.name}}</p> 
+<div *ngIf="home" class="gallery-info__container">
+    <p class="gallery-info">{{home.name}}</p>
 </div>
 
 <p-galleria [(value)]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '1040px'}"
@@ -7,7 +7,7 @@
     <ng-template pTemplate="item" let-item>
         <img [src]="item.url" style="width: 100%" />
     </ng-template>
-    <ng-template  pTemplate="thumbnail" let-item >
+    <ng-template pTemplate="thumbnail" let-item>
         <div class="p-grid p-nogutter p-justify-center">
             <img [src]="item.url" width="80px" />
         </div>
@@ -15,5 +15,6 @@
 </p-galleria>
 
 <div class="go-back__container">
-<button pButton type="button" label="Volver" class="go-back__button p-button-raised p-button-rounded" [routerLink]="['']"></button>
+    <button pButton type="button" label="Volver" class="go-back__button p-button-raised p-button-rounded"
+        [routerLink]="['']"></button>
 </div>

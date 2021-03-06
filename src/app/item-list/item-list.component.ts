@@ -15,8 +15,7 @@ export class ItemListComponent implements OnInit {
   constructor(private jsonService: JsonService,
     private sharedService: SharedService,
     private router: Router) {
-
-    //We changes the number of elements to show
+    //Here We change the number of elements that we want to show
     this.responsiveOptions = [
       {
         breakpoint: '1024px',
@@ -37,7 +36,7 @@ export class ItemListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    //We call to our service and recieve the information of the houses
+    //We call to our service and receive the information of the houses
     this.jsonService.getJson("../assets/homes.json").subscribe(result$ => {
       console.log(result$)
       this.homes = result$;
@@ -50,7 +49,7 @@ export class ItemListComponent implements OnInit {
   goToGallery(home, image) {
     let index = home.images.indexOf(image)
     if (index != -1) {
-      //We go first to our route "gallery" and when gallery observable is listening,we send the info about de house. 
+      //We go first to our route "gallery" and when gallery observable is listening, we send the info about the house. 
       this.router.navigate(['/gallery'])
       setTimeout(() => {
         this.sharedService.sharedImagesNotification.next([home, index]);

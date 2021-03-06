@@ -9,10 +9,10 @@ import { ItemListComponent } from './item-list/item-list.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { JsonService } from './service/json.service';
 //primeng imports
-import {CardModule} from 'primeng/card';
-import {CarouselModule} from 'primeng/carousel';
-import {GalleriaModule} from 'primeng/galleria';
-import {ButtonModule} from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { CarouselModule } from 'primeng/carousel';
+import { GalleriaModule } from 'primeng/galleria';
+import { ButtonModule } from 'primeng/button';
 
 
 @NgModule({
