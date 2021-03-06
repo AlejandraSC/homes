@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    line-height: 20px;
+    background-color: var(--footer__background--color);
+    color: var(--base-color);
+    
+    @media all and (min-width: 768px) {
+    }
+  }
+  
+  .footer-love {
+    font-size: 12px;
+    margin: 0;
+    top: 60px;
+    font-family: var(--text-font);
+    height: 30px;
+  
+    @media all and (min-width: 768px) {
+      text-align: right;
+      padding-left: 65px;
+      top: 68px;
+      bottom: 142px;
+    }
+  
+    @media all and (min-width: 800) {
+      text-align: left;
+      position: absolute;
+      top: 75px;
+      bottom: 135px;
+      left: 370px;
+    }
+  }
+  
+  .heart {
+    color: var(--neutral-color);
+  }
+  

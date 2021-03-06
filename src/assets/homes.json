@@ -1,10 +1,32 @@
 [
   {
+    "name": "Casa de campo",
+    "meters": "120",
+    "rooms": "3",
+    "images": [
+      { "url": "./assets/images/cottage1.jpg" },
+      { "url": "./assets/images/cottage2.jpg" },
+      { "url": "./assets/images/cottage3.jpg" },
+      { "url": "./assets/images/cottage4.jpg" },
+      { "url": "./assets/images/cottage5.jpg" }
+    ]
+  },
+  {
+    "name": "Chalet unifamiliar",
+    "meters": "200",
+    "rooms": "3",
+    "images": [
+      { "url": "./assets/images/chaletUnifamiliar1.jpg" },
+      { "url": "./assets/images/chaletUnifamiliar2.jpg" },
+      { "url": "./assets/images/chaletUnifamiliar3.jpg" },
+      { "url": "./assets/images/chaletUnifamiliar4.jpg" },
+      { "url": "./assets/images/chaletUnifamiliar5.jpg" }
+    ]
+  },
+  {
     "name": "Apartamento en ventas",
     "meters": "70",
     "rooms": "2",
-    "floor": "2nd",
-    "bathrooms": "2",
     "images": [
       { "url": "./assets/images/apartamentoVentas1.jpg" },
       { "url": "./assets/images/apartamentoVentas2.jpg" },
@@ -17,8 +39,6 @@
     "name": "Ático en huertas",
     "meters": "150",
     "rooms": "4",
-    "floor": "6th",
-    "bathrooms": "3",
     "images": [
       { "url": "./assets/images/aticoHuertas1.jpg" },
       { "url": "./assets/images/aticoHuertas2.jpg" },
@@ -31,8 +51,6 @@
     "name": "Ático en la Magdalena",
     "meters": "120",
     "rooms": "3",
-    "floor": "4th",
-    "bathrooms": "3",
     "images": [
       { "url": "./assets/images/aticoMagdalena1.jpg" },
       { "url": "./assets/images/aticoMagdalena2.jpg" },
@@ -45,42 +63,12 @@
     "name": "Chalet en la riberuca",
     "meters": "170",
     "rooms": "2",
-    "floor": "2nd",
-    "bathrooms": "2",
     "images": [
       { "url": "./assets/images/chaletRiberuca1.jpg" },
       { "url": "./assets/images/chaletRiberuca2.jpg" },
       { "url": "./assets/images/chaletRiberuca3.jpg" },
       { "url": "./assets/images/chaletRiberuca4.jpg" },
       { "url": "./assets/images/chaletRiberuca5.jpg" }
-    ]
-  },
-  {
-    "name": "Chalet unifamiliar",
-    "meters": "200",
-    "rooms": "3",
-    "floor": "0",
-    "bathrooms": "2",
-    "images": [
-      { "url": "./assets/images/chaletUnifamiliar1.jpg" },
-      { "url": "./assets/images/chaletUnifamiliar2.jpg" },
-      { "url": "./assets/images/chaletUnifamiliar3.jpg" },
-      { "url": "./assets/images/chaletUnifamiliar4.jpg" },
-      { "url": "./assets/images/chaletUnifamiliar5.jpg" }
-    ]
-  },
-  {
-    "name": "Casa de campo",
-    "meters": "120",
-    "rooms": "3",
-    "floor": "0",
-    "bathrooms": "3",
-    "images": [
-      { "url": "./assets/images/cottage1.jpg" },
-      { "url": "./assets/images/cottage2.jpg" },
-      { "url": "./assets/images/cottage3.jpg" },
-      { "url": "./assets/images/cottage4.jpg" },
-      { "url": "./assets/images/cottage5.jpg" }
     ]
   }
 ]
