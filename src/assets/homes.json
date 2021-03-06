@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Ático en la Magdalena",
+      "meters": "120",
+      "rooms": "3",
+      "floor": "4th",
+      "bathrooms": "3",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "image5": ""
+    },
+    {
+      "name": "Chalet en la riberuca",
+      "meters": "170",
+      "rooms": "2",
+      "floor": "2nd",
+      "bathrooms": "2",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "image5": ""
+    },
+    {
+      "name": "Ático en huertas",
+      "meters": "150",
+      "rooms": "4",
+      "floor": "6th",
+      "bathrooms": "3",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "image5": ""
+    },
+    {
+      "name": "Apartamento en ventas",
+      "meters": "70",
+      "rooms": "2",
+      "floor": "2nd",
+      "bathrooms": "2",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "image5": ""
+    },
+    {
+      "name": "Chalet unifamiliar",
+      "meters": "200",
+      "rooms": "3",
+      "floor": "0",
+      "bathrooms": "2",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "image5": ""
+    },
+    {
+      "name": "Casa de campo",
+      "meters": "120",
+      "rooms": "3",
+      "floor": "0",
+      "bathrooms": "3",
+      "image1": "",
+      "image2": "",
+      "image3": "",
+      "image4": "",
+      "image5": ""
+    }
+  ]
+  
