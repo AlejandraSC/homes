@@ -46,6 +46,10 @@
   text-align: center;
   color: var(--base-color);
   font-family: var(--title-font);
+  padding-bottom: 1%;
+  @media all and (min-height: 768px) {
+    font-size: 20px;
+  }
 }
 
 .item-list__container {

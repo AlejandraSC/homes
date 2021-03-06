@@ -1,21 +1,19 @@
+<div *ngIf="home"  class="gallery-info__container">
+    <p class="gallery-info">{{home.name}}</p> 
+</div>
+
 <p-galleria [(value)]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '1040px'}"
-    [numVisible]="5" [activeIndex]="activeIndex">
+    [numVisible]="5" [activeIndex]="activeIndex" class="gallery-container">
     <ng-template pTemplate="item" let-item>
-        <img [src]="item.url" style="width: 100%;" />
+        <img [src]="item.url" style="width: 100%" />
     </ng-template>
-    <ng-template pTemplate="thumbnail" let-item>
+    <ng-template  pTemplate="thumbnail" let-item >
         <div class="p-grid p-nogutter p-justify-center">
             <img [src]="item.url" width="80px" />
         </div>
     </ng-template>
 </p-galleria>
 
-<div class="gallery-info__container">
-    <p *ngIf="home" class="gallery-info">{{home.name}}</p>
-    <p *ngIf="home" class="gallery-info">{{home.meters}} m²</p>
-    <p *ngIf="home" class="gallery-info">{{home.rooms}} hab.</p>
-</div>
-
 <div class="go-back__container">
-<button pButton type="button" class="go-back__button p-button-raised p-button-rounded" [routerLink]="['']">Go back to main page</button>
+<button pButton type="button" label="Volver" class="go-back__button p-button-raised p-button-rounded" [routerLink]="['']"></button>
 </div>
