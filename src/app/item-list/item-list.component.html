@@ -1,8 +1,15 @@
+<header class="header-container">
+    <img src="../assets/images/header.jpg" class="header-image">
+    <div class="texto-encima">¿Buscas la vivienda de tus sueños?</div>
+</header>
+
+
+
 <p-card *ngFor="let home of homes; let i = index" class="card-container">
     <p>{{home.name}}</p>
     <p-carousel [numVisible]="5" [value]="home.images" [responsiveOptions]="responsiveOptions">
         <ng-template let-image pTemplate="item">
-            <img [src]="image.url" alt="Girl in a jacket" width="80" height="80">
+            <img [src]="image.url" width="80" height="80" (click)="goToGallery(home, image)">
         </ng-template>
     </p-carousel>
 </p-card>

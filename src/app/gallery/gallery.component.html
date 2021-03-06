@@ -1,1 +1,21 @@
-<p>gallery works!</p>
+
+<p *ngIf="home">{{home.name}}</p>
+
+<p-galleria [(value)]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5" [activeIndex]="activeIndex"> 
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.url" style="width: 100%;" />
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+        <div class="p-grid p-nogutter p-justify-center">
+            <img [src]="item.url" width="80px"/>
+        </div>
+    </ng-template>
+</p-galleria>
+
+
+
+
+
+<a [routerLink]="['']">
+    go to main component
+  </a>

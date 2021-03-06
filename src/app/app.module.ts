@@ -11,6 +11,7 @@ import {CardModule} from 'primeng/card';
 import {CarouselModule} from 'primeng/carousel';
 import {GalleriaModule} from 'primeng/galleria';
 import { GalleryComponent } from './gallery/gallery.component';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     HttpClientModule,
     CardModule,
     CarouselModule,
-    GalleriaModule
+    GalleriaModule,
+    CommonModule
   ],
   providers: [JsonService],
   bootstrap: [AppComponent]
