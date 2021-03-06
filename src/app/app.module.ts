@@ -5,6 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ItemListComponent } from './item-list/item-list.component';
+import { HttpClientModule } from '@angular/common/http';
+import { JsonService } from './service/json.service';
 
 @NgModule({
   declarations: [
@@ -13,9 +15,10 @@ import { ItemListComponent } from './item-list/item-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [JsonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
