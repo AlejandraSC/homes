@@ -1,3 +1,8 @@
 <p-card *ngFor="let home of homes; let i = index" class="card-container">
     <p>{{home.name}}</p>
+    <p-carousel [numVisible]="5" [value]="home.images" [responsiveOptions]="responsiveOptions">
+        <ng-template let-image pTemplate="item">
+            <img [src]="image.url" alt="Girl in a jacket" width="80" height="80">
+        </ng-template>
+    </p-carousel>
 </p-card>

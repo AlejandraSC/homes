@@ -16,6 +16,5 @@ export class AppComponent {
   ) { }
 
   ngOnInit() {
-    this.router.navigate(['itemList']);
   }
 }

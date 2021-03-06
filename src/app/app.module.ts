@@ -7,16 +7,23 @@ import { AppComponent } from './app.component';
 import { ItemListComponent } from './item-list/item-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { JsonService } from './service/json.service';
-
+import {CardModule} from 'primeng/card';
+import {CarouselModule} from 'primeng/carousel';
+import {GalleriaModule} from 'primeng/galleria';
+import { GalleryComponent } from './gallery/gallery.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ItemListComponent
+    ItemListComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    CardModule,
+    CarouselModule,
+    GalleriaModule
   ],
   providers: [JsonService],
   bootstrap: [AppComponent]
